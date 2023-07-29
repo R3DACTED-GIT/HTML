@@ -19,7 +19,7 @@
 Discover how to create hyperlinks that connect web pages and embed images within HTML documents.
 
 ## Lists (5)
-Organize information using ordered (<ol>) and unordered (<ul>) lists.
+Organize information using ordered ```(<ol>)``` and unordered ```(<ul>)``` lists.
 
 ## HTML Entities (6)
 Use HTML entities to display special characters and symbols.
@@ -31,4 +31,4 @@ Build interactive web forms to collect user input, including text fields, radio 
 Explore the significance of semantic HTML elements in enhancing website accessibility and search engine optimization.
 
 ## HTML5 Elements (9)
-Get acquainted with new and updated HTML5 elements, such as <header>, <footer>, <nav>, and more.
+Get acquainted with new and updated HTML5 elements, such as ```<header>```, ```<footer>```, ```<nav>```, and more.
