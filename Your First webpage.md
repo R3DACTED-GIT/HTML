@@ -82,4 +82,64 @@ To see the results of your work, right-click anywhere inside the index.html file
 ## Your website should look simular to this: 
 ![image](https://github.com/R3DACTED-GIT/HTML/assets/140674398/e5593e97-1616-443a-a3bd-2a018302f434)
 
-Congratulations! You have created a basic webpage with headings, paragraphs, a link, and an image using Visual Studio Code and Live Preview. Now, feel free to experiment further and explore more HTML elements to enhance your webpage!
+# Part 2: A basic Nav Bar and Favicon.
+A favicon image is the little icon you see on the left side of the browser tab, just beside the page title. It's like a small representation of your website. To include a favicon on your site, you have two options: either save the favicon image directly to the root directory of your web server, or create a folder named "images" within the root directory and place the favicon image there. A popular and conventional name for a favicon image file is "favicon.ico". By doing this, your website will have its own distinctive and recognizable icon displayed in the browser tab, providing a more polished and professional look.
+```
+<head>
+  <title>Your Page Title</title>
+  <link rel="icon" type="image" href="image address">
+</head>
+```
+The <link> element is used in HTML to define the relationship between a document and an external resource. It is typically included in the <head> section of an HTML document and is commonly used to link to external stylesheets, such as CSS files. By using the <link> element, you can easily connect your HTML document to other resources, like stylesheets or icon files, which allows for better organization and separation of concerns in web development. This helps in maintaining clean and structured code, making it easier to update and manage various aspects of a webpage independently.
+
+## Nav bar:
+```
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+```
+
+The ```<nav>``` element is used in HTML to represent a navigation section on a webpage. It is typically used to define a collection of navigation links, menus, or any other content that aids in navigating the website. The ```<nav>``` element helps in organizing and structuring the navigation menu, making it semantically clear that it contains navigation-related information. When using ```<nav>```, it's essential to include lists of links or other navigation elements inside it to create a well-structured and accessible navigation system for your website.
+
+The ```<ul>``` element is used in HTML to create an unordered list. It stands for "unordered list" and is used to group a collection of related items, presented in no particular order. Each item in the list is represented by the ```<li>``` (list item) element. The ```<ul>``` element is ideal for creating bullet-point lists, navigation menus, or any content that doesn't require a specific sequence. By using ```<ul>```, you can present information in a clear and concise manner, making it easier for users to scan through the content and grasp key points without any predetermined ordering.
+
+# Part 3: Your Basic Form
+```
+<form action="">
+  <label for="first">First name:</label><br>
+  <label for="last">Last name:</label><br>
+  <input type="text" id="First" name="First" value="John"><br>
+  <input type="text" id="Last" name="Last" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+```
+## ```<forms>``` Element:
+The ```<form>``` element is used to create a form on a webpage. It is a container that holds various form elements like input fields, checkboxes, radio buttons, and buttons. The ```action``` attribute in the ```<form>``` tag specifies the URL to which the form data will be submitted when the user clicks the submit button.
+
+## ```<labels>``` Elements:
+The ```<label>``` element is used to associate a label with a form control, improving accessibility and user experience. The ```for``` attribute in the ```<label>``` tag specifies the ```id``` of the corresponding form control. In this example, there are two labels, one for the "First name" input and one for the "Last name" input.
+
+## ```<inputs>``` Elements:
+The ```<input>``` element is used to create various types of form controls, such as text inputs, checkboxes, radio buttons, and submit buttons. In this code, two text inputs are used with the ```type="text"``` attribute. The ```id``` and ```name``` attributes are used to uniquely identify and name the form fields. The ```value``` attribute sets the initial value for each input field. For the "First name" input, the value is set to "John," and for the "Last name" input, the value is set to "Doe."
+
+## ```<br>``` Element:
+The ```<br>``` element is a line break that creates a new line, forcing the next element to appear on the next line. In this example, it is used to place the "Last name" input on a new line, creating a line break after the "First name" input and its corresponding label.
+
+## ```<submit>``` Input Element:
+The last ```<input>``` element in this form has ```type="submit"```. This creates a submit button that users can click to submit the form data to the URL specified in the ```action``` attribute of the ```<form>``` element. The value of the button is set to "Submit," which appears as the text on the button.
+
+
+
+
+
+
+
+# So far recap: 
+![image](https://github.com/R3DACTED-GIT/HTML/assets/140674398/36095d57-54f8-4d4b-8cf3-0a8417c7ad6c)
+
