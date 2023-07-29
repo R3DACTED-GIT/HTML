@@ -94,7 +94,7 @@ The title attribute defines some extra information about an element
 
 ```<fieldset>```	Groups related elements in a form
 
-```<figcaption>```	Defines a caption for a <figure> element
+```<figcaption>```	Defines a caption for a ```<figure>``` element
 
 ```<figure>```	Specifies self-contained content
 
@@ -124,9 +124,9 @@ The title attribute defines some extra information about an element
 
 ```<kbd>```	Defines keyboard input
 
-```<label>```	Defines a label for an <input> element
+```<label>```	Defines a label for an ```<input>``` element
 
-```<legend>```	Defines a caption for a <fieldset> element
+```<legend>```	Defines a caption for a ```<fieldset>``` element
 
 ```<li>```	Defines a list item
 
@@ -186,7 +186,7 @@ The title attribute defines some extra information about an element
 
 ```<small>```	Defines smaller text
 
-```<source>```	Defines multiple media resources for media elements (<video> and <audio>)
+```<source>```	Defines multiple media resources for media elements (```<video>``` and ```<audio>```)
 
 ```<span>```	Defines a section in a document
 
@@ -196,7 +196,7 @@ The title attribute defines some extra information about an element
 
 ```<sub>```	Defines subscripted text
 
-```<summary>```	Defines a visible heading for a <details> element
+```<summary>```	Defines a visible heading for a ```<details>``` element
 
 ```<sup>```	Defines superscripted text
 
@@ -224,7 +224,7 @@ The title attribute defines some extra information about an element
 
 ```<tr>	Defines a row in a table
 
-```<track>	Defines text tracks for media elements (<video> and <audio>)
+```<track>	Defines text tracks for media elements (```<video>``` and ```<audio>```)
 
 ```<u>	Defines some text that is unarticulated and styled differently from normal text
 
@@ -233,4 +233,5 @@ The title attribute defines some extra information about an element
 ```<var>```	Defines a variable
 
 ```<video>```	Defines embedded video content
-<wbr>	Defines a possible line-break
+
+```<wbr>```	Defines a possible line-break
