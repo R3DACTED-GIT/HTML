@@ -5,30 +5,30 @@
 
 # Course Outline
 
-## Introduction to HTML (1)
+## Introduction to HTML 
 
 - Understand the purpose and significance of HTML in web development.
 
-## HTML Document Structure (2)
+## HTML Document Structure 
 - Learn the basic elements of an HTML document, including the DOCTYPE declaration, <html>, <head>, and <body>.
 
-## Headings and Paragraphs (3)
+## Headings and Paragraphs 
 - Master the usage of different heading levels and creating paragraphs to structure content effectively.
 
-## Links and Images (4)
+## Links and Images 
 Discover how to create hyperlinks that connect web pages and embed images within HTML documents.
 
-## Lists (5)
+## Lists 
 Organize information using ordered ```(<ol>)``` and unordered ```(<ul>)``` lists.
 
-## HTML Entities (6)
+## HTML Entities 
 Use HTML entities to display special characters and symbols.
 
-## HTML Forms (7)
+## HTML Forms 
 Build interactive web forms to collect user input, including text fields, radio buttons, checkboxes, and submit buttons.
 
-## Semantic HTML (8)
+## Semantic HTML 
 Explore the significance of semantic HTML elements in enhancing website accessibility and search engine optimization.
 
-## HTML5 Elements (9)
+## HTML5 Elements 
 Get acquainted with new and updated HTML5 elements, such as ```<header>```, ```<footer>```, ```<nav>```, and more.
